@@ -74,7 +74,7 @@
       <div class="formcontainer">
       <div class="container">
         <label for="name"><strong>Name</strong></label>
-        <input type="text" placeholder="Enter Username" name="name" required>
+        <input type="text" placeholder="Enter Name" name="name" required>
         <label for="email"><strong>E-mail</strong></label>
         <input type="text" placeholder="Enter E-mail" name="email" required>
         <label for="remark"><strong>Remark</strong></label>

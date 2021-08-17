@@ -22,7 +22,7 @@ class ContactController extends Controller
     public function send(Request $request)
     {
         // dd($request->remark);
-        Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->remark));
+        Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->remark, $request->name));
         Contact::create($request->all());
         return redirect(route('contact'));
 

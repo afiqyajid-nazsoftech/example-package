@@ -1,11 +1,7 @@
 @component('mail::message')
-# Introduction
+# This is from {{$name}}
 
-{{$remark}}
-
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
+"{{$remark}}"
 
 Thanks,<br>
 {{ config('app.name') }}

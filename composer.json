@@ -17,7 +17,7 @@
         }
     },
     "extra": {
-        "laravel": {
+        "laravel": { 
             "providers": [
                 "Afiqyajid\\Contact\\ContactServiceProvider"
             ]
