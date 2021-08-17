@@ -1,0 +1,19 @@
+{
+    "name": "60133/contact",
+    "description": "example learning for package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "afiqyajid25",
+            "email": "afiqyajid@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Afiqyajid\\Contact\\": "src/"
+        }
+    }
+}
