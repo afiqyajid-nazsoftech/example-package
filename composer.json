@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Afiqyajid\\Contact\\ServiceProvider"
+                "Afiqyajid\\Contact\\ContactServiceProvider"
             ]
         }
     }
