@@ -1,5 +1,5 @@
 {
-    "name": "60133/contact",
+    "name": "Afiqyajid/contact",
     "description": "example learning for package",
     "type": "library",
     "license": "MIT",
@@ -15,5 +15,14 @@
         "psr-4": {
             "Afiqyajid\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Afiqyajid\\Contact\\ServiceProvider"
+            ]
+        }
     }
+
+
 }
