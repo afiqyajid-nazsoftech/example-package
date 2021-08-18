@@ -13,6 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
+            "Afiqyajid\\Contact\\Tests\\": "tests/",
             "Afiqyajid\\Contact\\": "src/"
         }
     },
